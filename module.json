@@ -5,7 +5,6 @@
 	"author": "bolsacris",
 	"version": "0.1",
 	"systems": ["dnd5e"],
-	"styles":[],
 	"esmodules": ["./customwp.js"],
 	"url": "https://github.com/bolsacris/customwp",
 	"manifest": "https://raw.githubusercontent.com/bolsacris/customwp/main/module.json",
