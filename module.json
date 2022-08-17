@@ -11,9 +11,8 @@
 	"systems": ["dnd5e"],
 	"styles":[],
 	"scripts": ["customwp.js"],
-	"url": "https://github.com/",
-	"manifest": "https://raw.githubusercontent.com/",
-	"download": "https://github.com/",
+	"url": "https://github.com/bolsacris/customwp",
+	"manifest": "https://raw.githubusercontent.com/bolsacris/customwp/main/module.json",
 	"compatibility": {
 		"minimum": 9,
 		"verified": "10"
