@@ -3,7 +3,7 @@
 	"title": "Custom Weapon Properties",
 	"description": "Some weapon properties that we use in our games, not intended to be used by anyone else but i can't tell you what to do.",
 	"author": "bolsacris",
-	"version": "0.2",
+	"version": "0.3",
 	"systems": ["dnd5e"],
 	"esmodules": ["./customwp.js"],
 	"url": "https://github.com/bolsacris/customwp",
