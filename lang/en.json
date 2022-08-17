@@ -1,0 +1,20 @@
+{
+	"CWP.antiArmor": "Anti-Armor",
+	"CWP.concealable": "Concealable",
+	"CWP.disarming": "Disarming",
+	"CWP.holdout": "Holdout",
+	"CWP.impactful": "Impactful",
+	"CWP.jointLocking": "Joint-locking",
+	"CWP.lobbed": "Lobbed",
+	"CWP.momentum": "Momentum",
+	"CWP.parrying": "Parrying",
+	"CWP.shoving": "Shoving",
+	"CWP.sweeping": "Sweeping",
+	"CWP.tripping": "Tripping",
+	"CWP.rangedTripping": "R. Tripping",
+	"CWP.unhorsing": "Unhorsing",
+	"CWP.dragonHorn": "Dragon-horn",
+	"CWP.iron": "Iron",
+	"CWP.mithral": "Mithral",
+	"CWP.tether": "Tether"	
+}
