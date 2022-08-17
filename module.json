@@ -1,21 +1,17 @@
 {
-	"id": "customwp",
+	"name": "customwp",
 	"title": "Custom Weapon Properties",
 	"description": "Some weapon properties that we use in our games, not intended to be used by anyone else but i can't tell you what to do.",
+	"author": "bolsacris",
 	"version": "0.1",
-	"authors": [
-	{
-	"name": "bolsacris"
-	}
-	],
 	"systems": ["dnd5e"],
 	"styles":[],
-	"scripts": ["customwp.js"],
+	"esmodules": ["./customwp.js"],
 	"url": "https://github.com/bolsacris/customwp",
 	"manifest": "https://raw.githubusercontent.com/bolsacris/customwp/main/module.json",
 	"compatibility": {
 		"minimum": 9,
-		"verified": "10"
+		"verified": "10",
 		"maximum": "10"
 	}
 }
