@@ -3,8 +3,10 @@
 	"name": "customwp",
 	"title": "Custom Weapon Properties",
 	"description": "Some weapon properties that we use in our games, not intended to be used by anyone else but i can't tell you what to do.",
-	"author": "bolsacris",
-	"authors": "bolsacris",
+	"authors": {
+		"name": "bolsacris",
+		"discord": "Bolsacris#4961"
+	},
 	"version": "0.6",
 	"systems": ["dnd5e"],
 	"esmodules": ["./customwp.js"],
