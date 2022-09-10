@@ -18,3 +18,12 @@ Hooks.on("init", () => {
 	CONFIG.DND5E.weaponProperties["mithral"] = game.i18n.localize("CWP.mithral");
 	CONFIG.DND5E.weaponProperties["tether"] = game.i18n.localize("CWP.tether");
 });
+
+
+
+
+
+
+
+
+
