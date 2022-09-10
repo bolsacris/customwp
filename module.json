@@ -16,7 +16,7 @@
       "name": "English",
       "path": "lang/en.json"
     }
-  ]
+  ],
 	"url": "https://github.com/bolsacris/customwp",
 	"manifest": "https://raw.githubusercontent.com/bolsacris/customwp/main/module.json",
 	"download": "https://github.com/bolsacris/customwp/archive/main.zip",
