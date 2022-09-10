@@ -1,6 +1,6 @@
 {
 	"id": "customwp",
-	"name": "customwp", // Old v9 id Field
+	"name": "customwp",
 	"title": "Custom Weapon Properties",
 	"description": "Some weapon properties that we use in our games, not intended to be used by anyone else but i can't tell you what to do.",
 	"author": "bolsacris",
@@ -10,8 +10,8 @@
 	"url": "https://github.com/bolsacris/customwp",
 	"manifest": "https://raw.githubusercontent.com/bolsacris/customwp/main/module.json",
 	"download": "https://github.com/bolsacris/customwp/archive/main.zip",
-	"minimumCoreVersion": "9",  // Old v9 Compatibility Field
-	"compatibleCoreVersion": "10.285", // Old v9 Compatibility Field
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "10.285",
 		"compatibility": {
 		"minimum": 9,
 		"verified": "10.285"
