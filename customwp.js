@@ -1,24 +1,85 @@
-Hooks.on("init", () => {
-	CONFIG.DND5E.weaponProperties["antiArmor"] = game.i18n.localize("CWP.antiArmor");
-	CONFIG.DND5E.weaponProperties["concealable"] = game.i18n.localize("CWP.concealable");
-	CONFIG.DND5E.weaponProperties["disarming"] = game.i18n.localize("CWP.disarming");
-	CONFIG.DND5E.weaponProperties["holdout"] = game.i18n.localize("CWP.holdout");
-	CONFIG.DND5E.weaponProperties["impactful"] = game.i18n.localize("CWP.impactful");
-	CONFIG.DND5E.weaponProperties["jointLocking"] = game.i18n.localize("CWP.jointLocking");
-	CONFIG.DND5E.weaponProperties["lobbed"] = game.i18n.localize("CWP.lobbed");
-	CONFIG.DND5E.weaponProperties["momentum"] = game.i18n.localize("CWP.momentum");
-	CONFIG.DND5E.weaponProperties["parrying"] = game.i18n.localize("CWP.parrying");
-	CONFIG.DND5E.weaponProperties["shoving"] = game.i18n.localize("CWP.shoving");
-	CONFIG.DND5E.weaponProperties["sweeping"] = game.i18n.localize("CWP.sweeping");
-	CONFIG.DND5E.weaponProperties["tripping"] = game.i18n.localize("CWP.tripping");
-	CONFIG.DND5E.weaponProperties["rangedTripping"] = game.i18n.localize("CWP.rangedTripping");
-	CONFIG.DND5E.weaponProperties["unhorsing"] = game.i18n.localize("CWP.unhorsing");
-	CONFIG.DND5E.weaponProperties["dragonHorn"] = game.i18n.localize("CWP.dragonHorn");
-	CONFIG.DND5E.weaponProperties["iron"] = game.i18n.localize("CWP.iron");
-	CONFIG.DND5E.weaponProperties["mithral"] = game.i18n.localize("CWP.mithral");
-	CONFIG.DND5E.weaponProperties["tether"] = game.i18n.localize("CWP.tether");
-});
+const newWeaponProps = {
+  antiArmor: {
+    label: 'CWP.antiArmor',
+    isPhysical: false 
+  },
+  concealable: {
+    label: 'CWP.concealable',
+    isPhysical: false 
+  },
+  disarming: {
+    label: 'CWP.disarming',
+    isPhysical: false 
+  },
+  holdout: {
+    label: 'CWP.holdout',
+    isPhysical: false 
+  },
+  impactful: {
+    label: 'CWP.impactful',
+    isPhysical: false 
+  },
+  jointLocking: {
+    label: 'CWP.jointLocking',
+    isPhysical: false 
+  },
+  lobbed: {
+    label: 'CWP.lobbed',
+    isPhysical: false 
+  },
+  momentum: {
+    label: 'CWP.momentum',
+    isPhysical: false 
+  },
+  parrying: {
+    label: 'CWP.parrying',
+    isPhysical: false 
+  },
+  shoving: {
+    label: 'CWP.shoving',
+    isPhysical: false 
+  },
+  sweeping: {
+    label: 'CWP.sweeping',
+    isPhysical: false 
+  },
+  tripping: {
+    label: 'CWP.tripping',
+    isPhysical: false 
+  },
+  rangedTripping: {
+    label: 'CWP.rangedTripping',
+    isPhysical: false 
+  },
+  unhorsing: {
+    label: 'CWP.unhorsing',
+    isPhysical: false 
+  },
+  dragonHorn: {
+    label: 'CWP.dragonHorn',
+    isPhysical: false 
+  },
+  iron: {
+    label: 'CWP.iron',
+    isPhysical: false 
+  },
+  mithral: {
+    label: 'CWP.mithral',
+    isPhysical: false 
+  },
+  tether: {
+    label: 'CWP.tether',
+    isPhysical: false 
+  }
+}
 
+Hooks.once("init", () => {
+  foundry.utils.mergeObject(CONFIG.DND5E.itemProperties, newWeaponProps)
+
+  for (const prop of Object.keys(newWeaponProps)) {
+    CONFIG.DND5E.validProperties.weapon.add(prop);
+  }
+});
 
 
 
